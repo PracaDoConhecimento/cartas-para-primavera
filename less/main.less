@@ -1,0 +1,163 @@
+/* Less */
+body {
+	background-color: #e4e4e4;
+	/* padding-top: 60px;			 for fixed topbar */
+    /* padding-bottom: 40px;		 for fixed footer */
+
+	h2, p {
+		font-family: 'Courier New', serif;
+	}
+
+	h3 {
+		color:#bd378c;
+	}
+}
+
+.coluna {
+	float: left;
+	margin-top:50px;	
+}
+
+.coluna-textos {
+	float: left;
+	margin-top: 50px;
+	width: 370px;
+	margin-right: 40px;
+}
+
+#cabecalho {
+	position: relative;
+}
+
+#menu-principal {
+	position: absolute;
+	z-index: 999;
+	margin-top: -52px;
+	right:0px;
+}
+
+#menu-principal a {
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+	padding: 16px 0;
+	background-color: #ff64c6;
+	font-family: 'Courier New', serif;
+	font-size: 18px;
+	color: #000; /* preto */	
+
+	border-radius: 12px 12px 0px 0px;
+	box-shadow: -2px 2px 16px -5px;
+
+	margin-right: -5px;
+}
+
+#menu-principal a:last-child {
+	margin-right: 0;	
+}
+
+#menu-principal a:hover {
+	text-decoration: none;
+	background-color: #bd378c;
+	box-shadow: -2px 2px 16px -5px;
+	color: #fff;
+}
+
+#corpo {
+	background: #f8ecde url('../img/borboleta-fundo.png') bottom 20px right 20px no-repeat;
+
+	padding: 59px;
+	padding-bottom: 150px;
+	width: 821px;
+
+	font-family: 'Courier New', serif !important;
+}
+
+#rodape {
+	position: relative;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	background: #fff;
+}
+
+#rodape ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#rodape #menu-rodape {
+	float: left;
+	margin-left: 59px;
+}
+
+#rodape #menu-rodape ul li a {
+	font-family: 'Courier New', serif;
+	font-size: 18px;
+	color: #000; /* preto */	
+}
+
+#rodape #social {
+	position: absolute;
+	bottom: 12px;
+	margin-left: 59px;
+}
+
+#rodape #social ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#rodape #assinatura-site {
+	float: right;		
+}
+
+#rodape #logo-praca {
+	float: right;
+	margin-top: 143px;
+}
+
+
+#grid-fotos {
+
+	margin-top: 30px;
+
+	.foto {
+		display: inline-block;
+		margin-right: 20px;
+		margin-bottom: 30px;
+
+
+		width: 220px;
+		background-color: #fff;
+		padding: 10px;
+
+		-webkit-box-shadow:  0px 0px 8px 1px rgba(0, 0, 0, .3);       
+        box-shadow:  0px 0px 8px 1px rgba(0, 0, 0, .3);
+
+		.imagem {
+			border: 1px solid #ccc;
+			width: 100%;
+			height: 100%;
+			min-height: 250px;
+			/*margin:0 auto;*/
+			background: #222;
+		}
+
+		.legenda {
+			font-family: 'Courier New', serif;
+			height: 50px;
+			line-height: 50px;
+			width: 202px;
+			margin: 0 auto;
+			text-align: center;
+
+		}
+
+	}
+
+
+
+}
+
+
